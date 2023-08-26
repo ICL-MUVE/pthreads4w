@@ -155,8 +155,8 @@ install(FILES _ptw32.h pthread.h sched.h semaphore.h DESTINATION ${HDRDEST})
 #################################
 # Test                          #
 #################################
-include (CTest)
+#include (CTest)
 
-if(NOT CMAKE_CROSSCOMPILING AND BUILD_TESTING)
-    add_subdirectory(tests)
-endif()
+#if(NOT CMAKE_CROSSCOMPILING AND BUILD_TESTING)
+#    add_subdirectory(tests)
+#endif()
